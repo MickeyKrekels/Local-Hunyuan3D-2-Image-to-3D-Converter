@@ -76,5 +76,5 @@ The Flask API will start, and you can POST images to `/api/convert` to receive a
 ---
 
 ## Credits
-- [TencentARC/Hunyuan3D](https://github.com/TencentARC/Hunyuan3D)
+- [TencentARC/Hunyuan3D](https://github.com/sdbds/Hunyuan3D-2-for-windows)
 - [Hunyuan3D-2 on HuggingFace](https://huggingface.co/tencent/Hunyuan3D-2)
