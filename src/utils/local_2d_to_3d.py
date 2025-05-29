@@ -1,3 +1,8 @@
+"""
+Handles loading and inference for a local Hunyuan3D model.
+"""
+__all__ = ["Local2DTo3DConverter"]
+
 import os
 from hy3dgen.shapegen.pipelines import Hunyuan3DDiTFlowMatchingPipeline
 

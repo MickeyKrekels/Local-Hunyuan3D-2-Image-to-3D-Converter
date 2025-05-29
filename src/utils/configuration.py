@@ -1,3 +1,8 @@
+"""
+Loads and provides access to configuration settings from config.json.
+"""
+__all__ = ['ConfigLoader']
+
 import json
 import os
 

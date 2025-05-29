@@ -5,11 +5,10 @@ __all__ = ['Model2DTo3DApp']
 
 from flask import Flask
 
-from src.logger.logger import Logger
+from src.utils.configuration import ConfigLoader
 from src.api.convert_api import ConvertAPI
 from src.api.config_api import ConfigAPI
-
-from src.utils.configuration import ConfigLoader
+from src.logger.logger import Logger
 
 
 class Model2DTo3DApp:

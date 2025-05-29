@@ -50,4 +50,3 @@ class ConfigAPI:
             for key, value in data.items():
                 self.config.set(key, value)
             return jsonify({'message': 'Configuration updated', 'config': self.config.as_dict()})
-

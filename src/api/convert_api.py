@@ -1,8 +1,15 @@
-from flask import Blueprint, request, send_file, jsonify
-import tempfile
+"""
+API class for 2D to 3D model conversion endpoints.
+"""
+__all__ = ['ConvertAPI']
+
 import os
-from src.utils.configuration import ConfigLoader
+import tempfile
+
+from flask import Blueprint, request, send_file, jsonify
+
 from src.utils.local_2d_to_3d import Local2DTo3DConverter
+
 
 class ConvertAPI:
     """

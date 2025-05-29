@@ -1,9 +1,13 @@
+"""
+A refined application logger class that provides a simple interface for logging messages
+"""
+__all__ = ['Logger']
+
 import logging
 
 class Logger:
     """
-    A refined application logger class for consistent logging across the project.
-    Provides methods for info, warning, and error logging.
+    A refined application logger class that provides a simple interface for logging messages
     """
     def __init__(self, name=__name__):
         """
